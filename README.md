@@ -1,54 +1,113 @@
-# React + TypeScript + Vite
+# MHMH.dev-personal-page-
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, minimalistic personal website built with **React**, **TypeScript**, and **Vite**.
 
-Currently, two official plugins are available:
+This project serves as a personal homepage or portfolio to showcase your skills, projects, and contact information in a clean and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✅ Built with React, TypeScript, and Vite  
+✅ Hot Module Replacement (HMR) for faster development  
+✅ ESLint integration with recommended and type-aware rules  
+✅ Modular and scalable project structure  
+✅ Easy to deploy and customize
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🖥️ Demo
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 📷 Screenshots
+
+![image](https://github.com/user-attachments/assets/54143c17-2878-4fd6-80ad-977297773bbd)
+![image](https://github.com/user-attachments/assets/1103b1eb-4a63-4eea-8a6b-f54e34358892)
+![image](https://github.com/user-attachments/assets/9d2b4f5f-f1cd-422e-93ce-b6247ebcd344)
+
+
+---
+
+## 📦 Folder Structure
+
+MHMH.dev-personal-page-/
+├── public/ # Static assets (e.g. images, favicon)
+├── src/ # Application source code
+│ └── components/ # Reusable React components
+│ └── pages/ # Page components (Home, About, etc.)
+│ └── styles/ # Global styles
+│ └── App.tsx # App entry point
+│ └── main.tsx # React root renderer
+├── index.html # Root HTML file
+├── package.json # Project metadata and scripts
+├── vite.config.ts # Vite configuration
+├── tsconfig*.json # TypeScript configurations
+├── eslint.config.js # ESLint configuration
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Installation
+
+First, make sure you have **Node.js** and **npm** installed on your system.
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/mmad01/MHMH.dev-personal-page-.git
+   cd MHMH.dev-personal-page-
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+🏃‍♂️ Running the App
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Then open http://localhost:5173 in your browser.
+
+🔨 Building for Production
+To create a production build, run:
+
+bash
+Copy
+Edit
+npm run build
+This will generate the optimized files in the dist/ folder.
+
+🧪 Linting
+To check your code for linting errors:
+
+bash
+Copy
+Edit
+npm run lint
+📑 Configuration
+Vite: Configure in vite.config.ts
+
+TypeScript: Main settings in tsconfig.json (plus separate tsconfig.app.json and tsconfig.node.json)
+
+ESLint: Configure in eslint.config.js
+
+👤 Author
+GitHub: mmad01
+
+📄 License
+This project is licensed under the MIT License.
+
+🙋‍♂️ Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+📬 Contact
+If you have any questions or suggestions, feel free to open an issue or contact me via GitHub.
+
