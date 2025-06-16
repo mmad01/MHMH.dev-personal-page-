@@ -21,7 +21,7 @@ function Header() {
             </h1>
           </div>
 
-          <div className="flex flex-col w-9/11  h-[192px] mr-12">
+          <div className="flex flex-col w-9/11  h-[192px] mr-12 relative right-10 lg:right-0">
             <h2 className="font-[Yekan-Bold] text-[24px] text-[#868490] text-right">
               کلاینت
             </h2>
@@ -31,22 +31,22 @@ function Header() {
           </div>
         </div>
 
-        <div className="flex w-full h-screen justify-between lg:contents">
+        <div className="flex w-full h-screen justify-center relative left-0 md:left-10 lg:contents">
           <img
             src="/images/prof.jpg"
             alt="profile"
             className="w-4/12 h-[655.31px] object-cover relative lg:bottom-15 xl:bottom-0"
           />
 
-          <div className="flex justify-start items-end flex-col relative">
-            <h2 className="text-[#868490] text-[23px] font-[Yekan-Bold] mb-5 relative right-40 md:right-0 md:text-[47px] ">
+          <div className="flex justify-start items-end flex-col relative  md:right-0 w-110 lg:w-auto">
+            <h2 className="text-[#868490] text-[23px] font-[Yekan-Bold] mb-5 relative right-40 md:right-30 lg:right-0 md:text-[47px] ">
               برنامه نویس فرانت
             </h2>
-            <h1 className="text-[#FFFFFF] text-[40px] relative right-40 md:right-0 md:w-10/12 md:text-[70px] lg:text-end lg:w-1/1 font-[Yekan-Bold]">
+            <h1 className="text-[#FFFFFF] text-[40px] relative right-40 md:right-14 md:w-10/12 md:text-[70px] lg:text-end lg:w-1/1 font-[Yekan-Bold]">
               محمدمِهدی عظیمی
             </h1>
-            <div className="w-[183px] h-[8px] bg-[#F8E7A1] mt-20 mb-20 relative right-40 md:right-0"></div>
-            <p className=" text-[#868490] font-[Yekan-Medium] text-[20px] w-9/16 relative right-40 md:w-auto md:right-0 text-end xl:w-9/12">
+            <div className="w-[183px] h-[8px] bg-[#F8E7A1] mt-20 mb-40 relative right-40 md:right-0 lg:mb-20"></div>
+            <p className=" text-[#868490] font-[Yekan-Medium] text-[20px] w-9/16 relative right-40 bottom-35 lg:bottom-0 md:w-10/16 lg:w-auto lg:right-0 text-end xl:w-9/12">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
               ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
