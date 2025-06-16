@@ -5,6 +5,7 @@ function Navbar({
   onPortfolioClick,
   onContactUsClick,
   onMainClick,
+  onAboutUsClick,
 }: Navclick) {
   return (
     <div className="h-[128px] fixed flex flex-col justify-center items-center w-full bg-gradient-to-r from-[#4f349f] via-[#030e21] to-[#18416b] mt-5">
@@ -28,7 +29,9 @@ function Navbar({
           >
             ارتباط
           </button>
-          <button className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110">
+          <button
+          onClick={onAboutUsClick}
+           className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110">
             درباره
           </button>
         </div>

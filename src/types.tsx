@@ -3,5 +3,6 @@ export type Navclick = {
   onPortfolioClick: () => void;
   onContactUsClick: () => void;
   onMainClick: () => void;
+  onAboutUsClick: () => void;
 };
 

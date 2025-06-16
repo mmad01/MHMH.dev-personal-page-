@@ -25,6 +25,10 @@ function Home() {
   const scrollToContactUs = () =>
     ContactUsRef.current?.scrollIntoView({ behavior: "smooth" });
 
+  const AboutUsRef = useRef<HTMLDivElement | null>(null);
+  const scrollToAboutUs = () =>
+    AboutUsRef.current?.scrollIntoView({ behavior: "smooth" });
+
   return (
     <div className="relative">
       <div className="absolute z-0">
@@ -38,6 +42,7 @@ function Home() {
             onPortfolioClick={scrollToPortfolio}
             onContactUsClick={scrollToContactUs}
             onMainClick={scrollToMain}
+            onAboutUsClick={scrollToAboutUs}
           />
         </div>
 
@@ -50,9 +55,10 @@ function Home() {
         <div ref={PortfolioRef} className="relative bottom-10"></div>
         <PortfolioExam />
 
-        <div ref={ContactUsRef} className="relative top-10"></div>
+        <div ref={ContactUsRef} className="relative bottom-20"></div>
         <ContactUs />
 
+        <div ref={AboutUsRef} className="relative top-80"></div>
         <Footer />
       </div>
     </div>
