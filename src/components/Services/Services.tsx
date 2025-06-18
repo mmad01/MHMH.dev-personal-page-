@@ -9,8 +9,8 @@ function Services() {
           <ServiceCategories />
           <ServiceCategories />
         </div>
-        <div className=" w-6/12 lg:w-4/12  relative right-30 lg:right-auto transition-all duration-300">
-          <h1 className="text-[20px] md:text-[30px] relative right-33 md:right-0 lg:text-[62px] font-[Yekan-Bold]">
+        <div className=" w-6/12 lg:w-4/12  relative right-15 lg:right-auto transition-all duration-300">
+          <h1 className="text-[20px] md:text-[30px] relative right-30 md:right-0 lg:text-[62px] font-[Yekan-Bold]">
             دسته‌بندی سرویس ها
           </h1>
           <p className="mt-5 text-[20px] w-7/12 sm:w-9/12 md:w-auto lg:text-[23px] font-[Yekan-Medium] ">
