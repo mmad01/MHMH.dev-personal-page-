@@ -1,6 +1,6 @@
 function ServiceCategories() {
   return (
-    <div className="relative">
+    <div className="relative w-15/20 lg:w-auto">
       <div className="bg-[#101B2E] opacity-30 w-full absolute h-[184px] rounded-xl z-0"></div>
       <div className="rounded-xl  border-1 border-[#282f3b]  h-[184px] flex items-center justify-between ">
         <svg
@@ -20,10 +20,10 @@ function ServiceCategories() {
         </svg>
         <div className=" w-full h-[104px] flex justify-end mr-2">
           <div className=" w-7/10 flex flex-col mr-10">
-            <h1 className="text-[40px] font-[Yekan-Bold] z-10">
+            <h1 className="text-[26px] lg:text-[40px] font-[Yekan-Bold] z-10">
               طراحی وب سایت
             </h1>
-            <h2 className="opacity-50 text-[24px] font-[Yekan-Fat]">
+            <h2 className="opacity-50 text-[16px] lg:text-[24px] font-[Yekan-Fat]">
               +80 پروژه
             </h2>
           </div>

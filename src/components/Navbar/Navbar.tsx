@@ -13,25 +13,25 @@ function Navbar({
         <div className="w-[500px] flex flex-row-reverse justify-between text-[#FFFFFF] font-[Yekan-Bold]">
           <button
             onClick={onServicesClick}
-            className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110"
+            className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[14px] sm:text-[16px] md:text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110 "
           >
             خدمات
           </button>
           <button
             onClick={onPortfolioClick}
-            className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110"
+            className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[14px] sm:text-[16px] md:text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110 "
           >
             نمونه کار ها
           </button>
           <button
             onClick={onContactUsClick}
-            className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110"
+            className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[14px] sm:text-[16px] md:text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110 "
           >
             ارتباط
           </button>
           <button
           onClick={onAboutUsClick}
-           className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110">
+           className="px-4 py-2 border-2 border-[#8a2be2] rounded-md text-[14px] sm:text-[16px] md:text-[20px] font-[Yekan-Bold] hover:font-[Yekan-Fat] hover:bg-[#8a2be2] hover:text-black cursor-pointer transition-all duration-300 active:scale-110 ">
             درباره
           </button>
         </div>
