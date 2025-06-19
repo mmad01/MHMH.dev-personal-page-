@@ -49,13 +49,13 @@ function Home() {
         <Header />
 
         <LanguageIcons />
-        <div ref={servicesRef} className="relative bottom-30"></div>
+        <div ref={servicesRef} className="relative bottom-10"></div>
         <Services />
 
         <div ref={PortfolioRef} className="relative bottom-10"></div>
         <PortfolioExam />
 
-        <div ref={ContactUsRef} className="relative bottom-20"></div>
+        <div ref={ContactUsRef} className="relative top-5"></div>
         <ContactUs />
 
         <div ref={AboutUsRef} className="relative top-80"></div>
