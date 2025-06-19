@@ -1,6 +1,6 @@
 function ContactUs() {
   return (
-    <div className="flex justify-center xl:mb-30 2xl:mb-0 transition-all duration-300 relative md:left-2/19 lg:left-auto">
+    <div className="flex justify-center xl:mb-30 2xl:mb-0 transition-all duration-300 relative sm:top-35 md:top-30 lg:top-0 lg:left-auto">
       <div className=" mt-40 w-10/12 flex flex-row-reverse relative h-147">
         <div className="flex flex-col justify-between items-end transition-all duration-300">
           <h1 className="font-[Yekan-Bold] text-[20px] md:text-[22px] lg:text-[30px] xl:text-[50px] text-white text-left xl:text-right w-4/10 xl:w-6/10 relative right-70 sm:right-50 md:right-20 lg:right-[-80px] xl:right-0">

@@ -2,7 +2,7 @@ import ServiceCategories from "../serviceCategories/ServiceCategories";
 
 function Services() {
   return (
-    <div className="mt-30 flex items-center justify-center  text-white text-end relative right-20 sm:right-[-30px] md:right-[-70px] lg:right-0 transition-all duration-300">
+    <div className="mt-30 flex items-center justify-center  text-white text-end relative right-20 sm:right-18 md:right-10 lg:right-0 transition-all duration-300">
       <div className="w-10/12 h-[608px]  flex">
         <div className=" w-8/12 flex flex-col justify-between mr-10 ">
           <ServiceCategories />

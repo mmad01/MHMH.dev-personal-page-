@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className="mt-[160px] h-auto flex justify-center">
+    <div className="mt-[160px] h-auto flex justify-center relative sm:right-8 md:right-12 lg:right-3 xl:right-0">
       <div className="flex items-end justify-between w-10/12 flex-col-reverse lg:flex-row lg:justify-between">
         <div className="flex justify-between text-right mt-40 mr-20 sm:mr-0 relative right-36 w-10/12 md:right-0 md:w-1/1 lg:bottom-23 xl:bottom-0 lg:flex-col lg:justify-between lg:w-1.5/12 lg:mt-0 transition-all duration-300">
           <div className="flex flex-col w-9/11  h-[192px] mr-12">
