@@ -3,13 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="bg-[#091427] w-full h-[182px] mt-30 flex items-center justify-end ">
-      <h1 className="text-white font-[Yekan-Bold] text-2xl">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias
-        assumenda cum fuga quisquam tempore quod. Autem voluptate esse quod quos
-        tempore minus quae nulla eum alias! Voluptatibus, aspernatur repudiandae
-        id corporis labore distinctio officiis eos debitis qui atque odit,
-        dignissimos consequuntur laudantium, inventore placeat? Cupiditate?
-      </h1>
+
       <div className="w-auto h-[106px]  ml-29 ">
         <h1 className="text-[34px] text-white text-end font-[Yekan-Fat] mr-5">
           ما را دنبال کنید

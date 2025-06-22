@@ -1,6 +1,6 @@
 function ServiceCategories() {
   return (
-    <div className="relative w-15/20 lg:w-auto">
+    <div className="relative w-1/1 lg:w-auto">
       <div className="bg-[#101B2E] opacity-30 w-full absolute h-[184px] rounded-xl z-0"></div>
       <div className="rounded-xl  border-1 border-[#282f3b]  h-[184px] flex items-center justify-between ">
         <svg
