@@ -45,7 +45,7 @@ function Header() {
             <h1 className="text-[#FFFFFF] text-[40px] relative right-40 md:right-14 md:w-10/12 md:text-[70px] lg:text-end lg:right-0 lg:w-1/1 font-[Yekan-Bold] transition-all duration-300">
               محمدمِهدی عظیمی
             </h1>
-            <div className="w-[183px] h-[8px] bg-[#F8E7A1] mt-20 mb-40 relative right-40 md:right-0 lg:mb-20"></div>
+            <div className="w-[183px] h-[8px] bg-[#F8E7A1] mt-20 mb-40 relative right-40 lg:right-0 lg:mb-20"></div>
             <p className=" text-[#868490] font-[Yekan-Medium] text-[20px] w-9/16 relative right-40 bottom-35 lg:bottom-0 md:w-10/16 lg:w-auto lg:right-0 text-end xl:w-9/12 transition-all duration-300">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
               استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
