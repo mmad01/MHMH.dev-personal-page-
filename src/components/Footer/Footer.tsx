@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="bg-[#091427] w-full h-[182px] mt-30 flex items-center justify-end ">
-
-      <div className="w-auto h-[106px]  ml-29 ">
-        <h1 className="text-[34px] text-white text-end font-[Yekan-Fat] mr-5">
+      <div className="w-auto h-[106px]  ml-29 relative right-30 md:right-0">
+        <h1 className="text-[34px] text-white text-end font-[Yekan-Fat] mr-5 relative right-5 md:right-0">
           ما را دنبال کنید
         </h1>
-        <div className="flex justify-between  h-15">
+        <div className="flex justify-between h-15">
           {/* githab */}
           <Link to="https://github.com/mmad01">
             <button
