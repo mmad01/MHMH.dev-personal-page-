@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="bg-[#091427] w-full h-[182px] mt-30 flex items-center justify-end ">
+    <div className="bg-[#091427] w-full h-[182px] mt-30 2xl:mt-43 flex items-center justify-end ">
       <div className="w-auto h-[106px]  ml-29 relative right-30 md:right-0">
         <h1 className="text-[34px] text-white text-end font-[Yekan-Fat] mr-5 relative right-5 md:right-0">
           ما را دنبال کنید
