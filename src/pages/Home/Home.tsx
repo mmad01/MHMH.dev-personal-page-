@@ -34,7 +34,7 @@ function Home() {
       <div className="absolute z-0">
         <Background />
       </div>
-      <div className="absolute z-10 flex flex-col">
+      <div className="absolute z-10 flex flex-col h-[206px] sm:h-auto">
         <div ref={MainRef}></div>
         <div className="relative bottom-5 z-20">
           <Navbar
@@ -49,13 +49,19 @@ function Home() {
         <Header />
 
         <LanguageIcons />
-        <div ref={servicesRef} className="relative bottom-10"></div>
+        <div
+          ref={servicesRef}
+          className="relative bottom-10 sm:bottom-10"
+        ></div>
         <Services />
 
-        <div ref={PortfolioRef} className="relative bottom-10"></div>
+        <div
+          ref={PortfolioRef}
+          className="relative bottomمحمدمِهدی-0 sm:bottom-10"
+        ></div>
         <PortfolioExam />
 
-        <div ref={ContactUsRef} className="relative top-5"></div>
+        <div ref={ContactUsRef} className="relative top-[-650px] sm:top-5"></div>
         <ContactUs />
 
         <div ref={AboutUsRef} className="relative top-80"></div>
