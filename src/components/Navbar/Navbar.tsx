@@ -24,7 +24,7 @@ function Navbar({
           <button
             id="menuButton"
             data-dropdown-toggle="menuDropdown"
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-gray-800 rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
+            className="inline-flex items-center px-4 py-2 text-sm font-[Yekan-Fat] text-white  bg-gradient-to-r from-[#4f349f] via-[#030e21] to-[#18416b] rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
             type="button"
           >
             <svg
@@ -46,10 +46,10 @@ function Navbar({
           {/* Dropdown */}
           <div
             id="menuDropdown"
-            className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 absolute mt-2 dark:bg-gray-700"
+            className="z-10 hidden  bg-gradient-to-r from-[#4f349f] via-[#030e21] to-[#18416b] text-white divide-y divide-gray-100 rounded-lg shadow w-44 absolute mt-2 dark:bg-gray-700"
           >
             <ul
-              className="py-2 text-sm text-gray-700 dark:text-gray-200"
+              className="py-2 text-sm text-white font-[Yekan-Fat] dark:text-gray-200"
               aria-labelledby="menuButton"
             >
               <li>
