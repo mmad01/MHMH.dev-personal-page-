@@ -1,6 +1,6 @@
 function Background() {
   return (
-    <div className="relative w-screen h-auto">
+    <div className="relative bottom-20 sm:bottom-0 w-screen h-auto">
       <img
         src="/background/back1.svg"
         alt="Background"

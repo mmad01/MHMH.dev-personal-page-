@@ -6,3 +6,16 @@ export type Navclick = {
   onAboutUsClick: () => void;
 };
 
+export type ServiceCategoriesTypes = {
+  title: string;
+  description: string;
+  Serimgurl:string;
+};
+
+export type DataTypes = {
+  id: number;
+  name: string;
+  description:string;
+  imgurl:string;
+  imgalt:string;
+};

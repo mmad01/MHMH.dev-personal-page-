@@ -1,11 +1,16 @@
-function ServiceCategories() {
+import type { ServiceCategoriesTypes } from "../../types";
+
+function ServiceCategories({
+  title,
+  description,
+  Serimgurl,
+}: ServiceCategoriesTypes) {
   return (
     <div className="relative w-40 sm:w-11/10 lg:w-auto">
       <div className="bg-[#101B2E] opacity-30 w-full absolute h-[80px] sm:h-[184px] rounded-xl z-0"></div>
-      <div className="rounded-xl  border-1 border-[#282f3b]  h-[80px] sm:h-[184px] flex items-center justify-between ">
+      <div className="rounded-xl border border-[#282f3b] h-[80px] sm:h-[184px] flex items-center justify-between relative z-10 px-4 sm:px-8">
         <svg
-          className="w-[20px] sm:w-[44px] bo dark:text-[#F8E7A1] ml-10 relative right-7 sm:right-0 z-10 "
-          aria-hidden="true"
+          className="w-[20px] sm:w-[44px] text-[#F8E7A1]"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 14 10"
@@ -18,23 +23,26 @@ function ServiceCategories() {
             d="M13 5H1m0 0 4 4M1 5l4-4"
           />
         </svg>
-        <div className=" w-full h-[104px] flex justify-end mr-2">
-          <div className=" w-7/10 flex flex-col mr-10">
-            <h1 className="text-[10px] sm:text-[22px] lg:text-[40px] w-6/2 sm:w-auto relative top-9 sm:top-0 left-2 sm:left-0 font-[Yekan-Bold] z-10 ">
-              طراحی وب سایت
+
+        <div className="flex w-full h-full items-center justify-end gap-4">
+          <div className="flex flex-col justify-center w-7/12">
+            <h1 className="text-[10px] sm:text-[22px] lg:text-[40px] font-[Yekan-Bold]">
+              {title}
             </h1>
-            <h2 className="opacity-50 text-[8px] sm:text-[16px] lg:text-[24px] w-5/2 sm:w-auto font-[Yekan-Fat] relative top-10 sm:top-10 lg:top-0 left-5 sm:left-0">
-              +80 پروژه
+            <h2 className="opacity-50 text-[8px] sm:text-[16px] lg:text-[24px] font-[Yekan-Fat]">
+              {description}
             </h2>
           </div>
+
           <img
-            src="/icons/webdisicon.svg"
+            src={Serimgurl}
             alt="webdisicon"
-            className="mr-[32px] w-4/12 sm:w-auto relative left-3/12 sm:left-0"
+            className="w-4/12 sm:w-[104px] sm:h-[104px]"
           />
         </div>
       </div>
     </div>
   );
 }
-export default ServiceCategories
+
+export default ServiceCategories;

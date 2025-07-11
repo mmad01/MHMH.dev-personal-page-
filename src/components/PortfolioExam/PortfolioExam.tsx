@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import PostsInPortfolioExam from "../postsInPortfolioExam/PostsInPortfolioExam";
+import PortfolioPosts from "../portfolioPosts/PortfolioPosts";
+import { data } from "../../data";
 
 function PortfolioExam() {
   return (
@@ -17,12 +18,54 @@ function PortfolioExam() {
           </h1>
         </div>
         <div className="lg:w-11/12 h-95 sm:h-195 flex flex-wrap flex-row-reverse justify-between relative left-4 sm:left-10">
-          <PostsInPortfolioExam />
-          <PostsInPortfolioExam />
-          <PostsInPortfolioExam />
-          <PostsInPortfolioExam />
-          <PostsInPortfolioExam />
-          <PostsInPortfolioExam />
+          <PortfolioPosts
+            key={data[data.length - 1].id}
+            id={data[data.length - 1].id}
+            name={data[data.length - 1].name}
+            description={data[data.length - 1].description}
+            imgurl={data[data.length - 1].imgurl}
+            imgalt={data[data.length - 1].imgalt}
+          />
+          <PortfolioPosts
+            key={data[data.length - 2].id}
+            id={data[data.length - 2].id}
+            name={data[data.length - 2].name}
+            description={data[data.length - 2].description}
+            imgurl={data[data.length - 2].imgurl}
+            imgalt={data[data.length - 2].imgalt}
+          />
+          <PortfolioPosts
+            key={data[data.length - 3].id}
+            id={data[data.length - 3].id}
+            name={data[data.length - 3].name}
+            description={data[data.length - 3].description}
+            imgurl={data[data.length - 3].imgurl}
+            imgalt={data[data.length - 3].imgalt}
+          />
+          <PortfolioPosts
+            key={data[data.length - 4].id}
+            id={data[data.length - 4].id}
+            name={data[data.length - 4].name}
+            description={data[data.length - 4].description}
+            imgurl={data[data.length - 4].imgurl}
+            imgalt={data[data.length - 4].imgalt}
+          />
+          <PortfolioPosts
+            key={data[data.length - 5].id}
+            id={data[data.length - 5].id}
+            name={data[data.length - 5].name}
+            description={data[data.length - 5].description}
+            imgurl={data[data.length - 5].imgurl}
+            imgalt={data[data.length - 5].imgalt}
+          />
+          <PortfolioPosts
+            key={data[data.length - 6].id}
+            id={data[data.length - 6].id}
+            name={data[data.length - 6].name}
+            description={data[data.length - 6].description}
+            imgurl={data[data.length - 6].imgurl}
+            imgalt={data[data.length - 6].imgalt}
+          />
         </div>
       </div>
     </div>

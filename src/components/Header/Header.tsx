@@ -10,7 +10,7 @@ function Header() {
               {"(سال)"}
             </h2>
             <h1 className="font-[Yekan-Bold] text-[25px] sm:text-[72px] text-[#FFFFFF]">
-              +3
+              +1
             </h1>
           </div>
 
@@ -19,16 +19,16 @@ function Header() {
               پروژه های انجام شده
             </h2>
             <h1 className="font-[Yekan-Bold] text-[25px] sm:text-[72px] text-[#FFFFFF] md:mt-10 lg:mt-0">
-              +220
+              +10
             </h1>
           </div>
 
           <div className="flex flex-col w-3/11 sm:w-9/11  h-[100px] sm:h-[192px] mr-0 sm:mr-12 relative right-10 lg:right-0">
             <h2 className="font-[Yekan-Bold] text-[17px] sm:text-[24px] text-[#868490] text-right">
-              کلاینت
+              مهارت‌های کلیدی
             </h2>
             <h1 className="font-[Yekan-Bold] text-[25px] sm:text-[72px] text-[#FFFFFF] mt-9 md:mt-10 lg:mt-0 relative bottom-2.5 sm:bottom-0">
-              +60
+              +7
             </h1>
           </div>
         </div>
@@ -50,14 +50,13 @@ function Header() {
               </h1>
               <div className="w-9/12 sm:w-[183px] h-[5px] sm:h-[8px] bg-[#F8E7A1] mt-20 mb-40 relative bottom-20 sm:bottom-0 right-31 sm:right-40 lg:right-0 lg:mb-20"></div>
               <p className=" text-[#868490] font-[Yekan-Medium] text-[20px] w-10/14 sm:w-9/16 relative right-36 sm:right-40 bottom-40 sm:bottom-35 lg:bottom-0 md:w-10/16 lg:w-auto lg:right-0 text-end xl:w-9/12 transition-all duration-300">
-                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
-                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
-                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان
-                جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
-                برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
-                زبان فارسی ایجاد کرد
+                من محمدمهدی عظیمی‌ام، برنامه‌نویس فرانت‌اند با بیش از یک سال
+                تجربه تو مسیر یادگیری، ساخت پروژه‌های مختلف و کار با
+                تکنولوژی‌های مدرن. تو این مدت با ابزارهایی مثل HTML، CSS،
+                JavaScript، TypeScript، Tailwind، React و Next.js کار کردم. این
+                سایتو ساختم تا یه نمای کلی از خودم و مهارت‌هام ارائه بدم و
+                پروژه‌هایی که روشون کار کردم رو اینجا قرار بدم تا مسیر رشدم
+                مستند باشه و فرصت‌های بهتری ایجاد کنه.
               </p>
             </div>
           </div>

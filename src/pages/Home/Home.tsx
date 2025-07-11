@@ -61,7 +61,10 @@ function Home() {
         ></div>
         <PortfolioExam />
 
-        <div ref={ContactUsRef} className="relative top-[-650px] sm:top-5"></div>
+        <div
+          ref={ContactUsRef}
+          className="relative top-[-650px] sm:top-5"
+        ></div>
         <ContactUs />
 
         <div ref={AboutUsRef} className="relative top-80"></div>
