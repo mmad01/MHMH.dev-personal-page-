@@ -1,22 +1,19 @@
 function ContactUs() {
   return (
-    <div className="flex justify-center xl:mb-30 2xl:mb-0 transition-all duration-300 relative left-18 md:left-20 xl:left-15 top-[-300px] sm:top-35 md:top-30 lg:top-0 lg:left-0">
-      <div className="mt-0 sm:mt-40 w-10/12 flex relative h-40 sm:h-147">
-        <div className=" lg:mr-20 xl:mr-0 flex flex-col justify-between items-end transition-all duration-300 h-[128px] sm:h-auto">
-          <h1 className="font-[Yekan-Bold] text-[11px] sm:text-[20px] md:text-[22px] lg:text-[30px] xl:text-[40px] xl2:text-[50px] text-white text-left xl:text-right w-2/10 sm:w-4/10 xl:w-6/10 relative right-115 sm:right-40 md:right-20 lg:right-[-80px] xl:right-0 bottom-33 sm:bottom-0">
-            اگه کاری داشتی یا سوالی بود، فرم تماس رو پر کن و یک پیام برام بفرست.
-            همیشه پیام‌هات برام مهمه و سعی می‌کنم سریع جواب بدم. شاید همین یک
-            پیام، شروع یک همکاری خفن بینمون باشه! که با هم پروژه‌های خفن‌تری
-            بسازیم
+    <div className="w-[360px] sm:w-[640px] md:w-auto flex justify-center  transition-all duration-300 top-[-300px] sm:top-35 md:top-30 lg:top-0">
+      <div className="mt-0 sm:mt-40 h-[150px] sm:h-auto  w-10/12 flex flex-row-reverse justify-between`">
+        <div className="w-[170px] sm:w-[700px] h-[150px] sm:h-auto flex flex-col  justify-between items-end transition-all duration-300">
+          <h1 className="font-[Yekan-Bold] text-[20px] sm:text-[55px] md:text-[60px] lg:text-[70px] xl:text-[90px] 2xl:text-[100px] text-white text-end xl:text-right w-1/1">
+            آیا می‌خواهید محصولی عالی و تأثیرگذار تولید کنید؟
           </h1>
-          <button className="text-[#F8E7A1] text-[10px] sm:text-[15px] md:text-[17px] lg:text-[23px] xl:text-[20px] relative right-128 sm:right-75 md:right-50 lg:right-0 xl:right-0 bottom-30 sm:bottom-57 md:bottom-30 lg:bottom-0 xl:bottom-0 font-[Yekan-Bold] cursor-pointer active:bg-gradient-to-br from-[#051838] to-[#133a7e]">
+          <button className="text-[#F8E7A1] text-[10px] sm:text-[15px] md:text-[17px] lg:text-[23px] xl:text-[20px] font-[Yekan-Bold] cursor-pointer active:bg-gradient-to-br from-[#051838] to-[#133a7e]">
             👈 با ما در ارتباط باشید
           </button>
         </div>
         <img
           src="/images/imageContact.svg"
           alt="imageContact"
-          className="lg:ml-20 xl:ml-0 absolute bottom-22 sm:bottom-32 md:bottom-27 lg:bottom-[-13px] left-[-100px] sm:left-[-90px] xl:left-[-100px] 2xl:left-[-16px] w-3/15 sm:w-7/15 object-cover h-50 sm:h-150 lg:w-125 xl:w-auto transition-all duration-300"
+          className="w-1/2 sm:w-7/15 object-cover sm:h-150 lg:w-125 xl:w-auto transition-all duration-300"
         />
       </div>
     </div>

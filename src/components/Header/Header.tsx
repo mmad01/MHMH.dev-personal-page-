@@ -38,7 +38,7 @@ function Header() {
             <img
               src="/images/prof.jpg"
               alt="profile"
-              className="w-30 sm:w-4/12 h-30 sm:h-[655.31px] rounded-full sm:rounded-none object-cover relative left-50 top-6 sm:left-0 sm:top-0 lg:bottom-15 xl:bottom-0"
+              className=" w-30 sm:w-4/12 h-30 sm:h-[655.31px] rounded-full sm:rounded-none object-cover relative left-50 top-6 sm:left-0 sm:top-0 lg:bottom-15 xl:bottom-0"
             />
 
             <div className="flex justify-start items-end flex-col relative md:bottom-25 xl:bottom-0 md:right-0 w-110 lg:w-auto">
